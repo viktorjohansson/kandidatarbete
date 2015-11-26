@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  content: MyText
+  owner_id: 
+  owner_company_id: 
+  candidate_id: 
+  candidate_company_id: 
+  status: 
+
+two:
+  title: MyString
+  content: MyText
+  owner_id: 
+  owner_company_id: 
+  candidate_id: 
+  candidate_company_id: 
+  status: 
