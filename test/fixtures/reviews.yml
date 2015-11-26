@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  message: MyText
+  rating: 
+  sender_id: 
+  sender_company_id: 
+  recipient_id: 
+  recipient_company_id: 
+  post_id: 
+
+two:
+  message: MyText
+  rating: 
+  sender_id: 
+  sender_company_id: 
+  recipient_id: 
+  recipient_company_id: 
+  post_id: 

@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @review.message %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @review.rating %>
+</p>
+
+<p>
+  <strong>Sender:</strong>
+  <%= @review.sender %>
+</p>
+
+<p>
+  <strong>Sender company:</strong>
+  <%= @review.sender_company %>
+</p>
+
+<p>
+  <strong>Recipient:</strong>
+  <%= @review.recipient %>
+</p>
+
+<p>
+  <strong>Recipient company:</strong>
+  <%= @review.recipient_company %>
+</p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @review.post %>
+</p>
+
+<%= link_to 'Edit', edit_review_path(@review) %> |
+<%= link_to 'Back', reviews_path %>
